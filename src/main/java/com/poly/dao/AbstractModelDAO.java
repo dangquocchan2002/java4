@@ -52,6 +52,7 @@ public abstract class AbstractModelDAO<T> {
 			throw e;
 		} finally {
 			em.close();
+//s
 		}
 	}
 	
